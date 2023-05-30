@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+caption {
+    margin-bottom: 10px; ;
+}
+
+table, th, tr, td {
+    border: 1px solid black; 
+    border-collapse: collapse;
+    margin: 20px; 
+}
+
+table {
+    margin: 10px auto;
+}
+
+th, td {
+    padding: 15px 20px; 
+    text-align: center;
+}
+
+.first {
+    background: red;
+}
+
+.second {
+    background: rgb(128, 109, 0); 
+}
+
+.third {
+    background: rgb(0, 255, 21);
+}
+
+.fourth {
+    background: rgb(0, 255, 255);
+}
+
+.fifth {
+    background: rgb(0, 119, 255);
+}
+
+.sixth {
+    background: rgb(55, 0, 255);
+}
+
+.seventh {
+    background: rgb(195, 0, 255);
+}
+
+.eighth {
+    background: rgb(255, 0, 98);
+}
+
+
+
+.unique {
+    background: gray;
+     
+}
+
+#realUnique {
+    background: white;
+}
+
+.head {
+    font-weight: 800;
+}
+
+.myMulti {
+    background:gray; 
+}
+
+.blue {
+    background: blue; 
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.yellow {
+    background: yellow; 
+}
+
+.blue {
+    background:rgb(0, 119, 255);
+}
+
+.pink {
+    background:rgb(225, 128, 255);
+    padding: 40px 20px; 
+}
+
+.pink-dark {
+    background:rgb(195, 0, 255);
+    padding: 40px 20px;
+}
+
+.red {
+    background: rgb(248, 94, 94);
+    padding: 40px 20px; 
+}
+
+.table2 {
+    margin-top: 100px;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tables</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    
+    <!--
+        align left right center
+        width # or %
+        cellpadding #
+        cellspacing #
+        bgcolor color
+        background file
+        border # border width
+        bordercolor color
+
+    -->
+
+    <table>
+        <caption>List of companies</caption>
+        <tr>
+            <th colspan="2">Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td colspan="2">Microsoft</td>
+            <td>Tristan Tate</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td colspan="2">Google</td>
+            <td>Sergey Brin</td>
+            <td rowspan="2">Russia</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Product Id</th>
+            <th>Price</th>
+            <th>Sale Price</th>
+            <th>Sales Count</th>
+            <th>Sale date</th>
+        </tr>
+        <tr class="first">
+            <td>1</td>
+            <td>30000</td>
+            <td>35000</td>
+            <td>55</td>
+            <td>02-04-2018</td>
+        </tr>
+        <tr class="second">
+            <td>2</td>
+            <td>33000</td>
+            <td>37000</td>
+            <td>55</td>
+            <td>03-04-2018</td>
+        </tr>
+        <tr class="third">
+            <td>3</td>
+            <td>31000</td>
+            <td>37000</td>
+            <td>55</td>
+            <td>04-04-2018</td>
+        </tr>
+        <tr class="fourth">
+            <td>4</td>
+            <td>29000</td>
+            <td>44000</td>
+            <td>55</td>
+            <td>05-04-2018</td>
+        </tr>
+        <tr class="fifth">
+            <td>5</td>
+            <td>15000</td>
+            <td>10000</td>
+            <td>55</td>
+            <td>06-04-2018</td>
+        </tr>
+        <tr class="sixth">
+            <td>6</td>
+            <td>22000</td>
+            <td>99000</td>
+            <td>55</td>
+            <td>07-04-2018</td>
+        </tr>
+        <tr class="seventh">
+            <td>7</td>
+            <td>33000</td>
+            <td>39000</td>
+            <td>55</td>
+            <td>08-04-2018</td>
+        </tr>
+        <tr class="eighth">
+            <td class="unique">8</td>
+            <td id="realUnique">44000</td>
+            <td>3000</td>
+            <td>55</td>
+            <td>09-04-2018</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>111</td>
+            <td>222</td>
+            <td>333</td>
+        </tr>
+        <tr>
+            <td rowspan="2">111</td>
+            <td>222</td>
+            <td>333</td>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td>222</td>
+            
+        </tr>
+        <tr>
+            <td colspan="3">111</td>
+            
+        </tr>
+        
+    </table>
+
+    <table>
+        <tr class="head">
+            <td>111</td>
+            <td>222</td>
+            <td>333</td>
+        </tr>
+        <tr>
+            <td colspan="2">111</td>
+            <td>222</td>
+        </tr>
+        <tr>
+            <td colspan="3">111</td>
+        </tr>
+    </table>
+
+
+    <table>
+        <caption class="myMulti">My Multi level table</caption>
+        <tr>
+            <td colspan="2" rowspan="2" class="blue bold">Column 0</td>
+            <td rowspan="2" class="bold">Column 1</td>
+            <td colspan="3" class="bold">Column 2</td>
+            
+
+        </tr>
+        <tr>
+            <td colspan="2" class="bold">Column 2a</td>
+            <td colspan="2" class="bold"> Column 2b</td>
+            
+            
+        </tr>
+        <tr>
+            <td rowspan="2" class="bold">Row 1</td>
+            <td class="bold"> Row 1a</td>
+            <td>123</td>
+            
+            <td colspan="2">456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <td class="bold">Row 1b</td>
+            <td>123</td>
+            
+            <td colspan="2">456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="bold">Row 2</td>
+            <td>123</td>
+            
+            <td colspan="2">456</td>
+            <td>789</td>
+            
+        </tr>
+    </table>
+    
+    <table class="table2">
+        <caption>Caption Nested table</caption>
+        <tr>
+            <td class="bold">Column1</td>
+            <td colspan="4" class="bold">Column2</td>
+        </tr>
+        <tr>
+            <td colspan="6">colspan column</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Rowspan cell</td>
+            <td colspan="5">Cell 2</td>
+        </tr>
+        <tr>
+            <td class="yellow bold">Inner column heading 1</td>
+            <td colspan="3" class="yellow bold">Inner column heading 2</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="blue">Inner data Cell 1</td>
+        </tr>
+        
+        <tr>
+            <td colspan="2" class="pink bold">Inner Most Column heading 1</td>
+            <td colspan="2" class="pink bold">Inner Most Column heading 2</td>
+            
+        </tr>
+        <tr>
+            <td colspan="2" class="pink-dark">Inner Most Column heading 1</td>
+            <td colspan="2" class="red">Inner Most Column heading 2</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
